@@ -1,5 +1,5 @@
 ## St. Georges classification task
-- Original [dataset](https://enterideas.com/testcv))
+- Original [dataset](https://enterideas.com/testcv)
 
 ### Context
 
@@ -11,10 +11,15 @@ No multi-GPU support or gradient checkpointing is implemented.
 
 In order to run this notebook, you'll need to:
  - Install pytorch following instructions in the link below:
+
 https://pytorch.org/get-started/locally/
- - Install Torchelie
+
+ - Install Torchelie:
+
 pip install git+https://github.com/vermeille/Torchelie
+
  - Install Ranger Optimizer
+
 pip install -e git+https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer.git#egg=Ranger
 
 To set up the rest of the prerequisites do in bash:
