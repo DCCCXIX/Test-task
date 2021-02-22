@@ -14,21 +14,17 @@ In order to run this notebook, you'll need to:
 
 https://pytorch.org/get-started/locally/
 
- - Install Torchelie:
+In order to use GPU, make sure that your pytorch and cuda versions are compatible.
+Using GPU as adviced.
 
-pip install git+https://github.com/vermeille/Torchelie
+ - Install poetry:
 
- - Install Ranger Optimizer
+https://python-poetry.org/docs/#installation
 
-pip install -e git+https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer.git#egg=Ranger
-
-To set up the rest of the prerequisites do in bash:
+To install the rest of dependancies, run poetry install command in bash:
 ```bash
-pip install requirements.txt
+poetry install
 ```
-macos users (additional step):
-```bash
-brew install libomp
 
 ### Dataset
 
