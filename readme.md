@@ -21,7 +21,7 @@ Using GPU as adviced.
 
 https://python-poetry.org/docs/#installation
 
-To install the rest of dependancies, run poetry install command in bash:
+To install the rest of dependencies, run poetry install command in bash:
 ```bash
 poetry install
 ```
