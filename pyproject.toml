@@ -16,6 +16,7 @@ Pillow = "^8.1.0"
 sklearn = "^0.0"
 albumentations = "^0.5.2"
 seaborn = "^0.11.1"
+timm = "^0.3.4"
 
 [tool.poetry.dev-dependencies]
 
